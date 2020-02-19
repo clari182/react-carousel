@@ -1,0 +1,51 @@
+.card-container {
+    background: #C4C4C4;
+    position: absolute;
+    width: 141px;
+    height: 161px;
+    margin: 10px 10px 0 0;
+    opacity: 0;
+    transition: all 1s ease-in;
+
+    header {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 76.4%;
+
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+
+    .body {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 23.6%;
+        bottom: 0%;
+
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+}
+
+.card-container.active {
+    opacity: 1;
+    transition: all 1s ease-in;
+}
